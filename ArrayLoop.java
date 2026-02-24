@@ -1,14 +1,15 @@
-public class OopsBannerApp {
+public class OOPSBannerApp {
     public static void main(String[] args) {
-String[] banner = {
-String.join("", "  OOOOO   ", "  OOOOO   ", "  PPPPP    ", "  SSSSS   "),
-String.join("", " O     O  ", " O     O  ", "  P     P  ", " S        "),
-String.join("", " O     O  ", " O     O  ", "  PPPPP    ", "  SSSSS   "),
-String.join("", " O     O  ", " O     O  ", "  P        ", "      S    "),
-String.join("", "  OOOOO   ", "  OOOOO   ", "  P        ", "  SSSSS   ")
-};
-for (String line : banner) {
-System.out.println(line);
-}
-}
+        String[] banner = new String[7];
+        banner[0] = String.join("", " ******   ", " ******   ", " ******   ", " ****** ");
+        banner[1] = String.join("", "*      *  ", "*      *  ", "*      *  ", "*      ");
+        banner[2] = String.join("", "*      *  ", "*      *  ", "*      *  ", "*      ");
+        banner[3] = String.join("", "*      *  ", "*      *  ", " ******   ", " ****** ");
+        banner[4] = String.join("", "*      *  ", "*      *  ", "*         ", "      *");
+        banner[5] = String.join("", "*      *  ", "*      *  ", "*         ", "      *");
+        banner[6] = String.join("", " ******   ", " ******   ", "*         ", " ****** ");
+        for (String line : banner) {
+            System.out.println(line);
+        }
+    }
 }
