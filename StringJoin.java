@@ -1,3 +1,4 @@
+public class OOPSBannerAPP{
 public static void main(String[] args) {  
     String row1 = String.join(" ", " *", " **", " **", " ***");
     String row2 = String.join(" ", "* ", " ", " ", " ");
@@ -13,4 +14,5 @@ public static void main(String[] args) {
     System.out.println(row5);
     System.out.println(row6);
     System.out.println(row7);
+}
 }
